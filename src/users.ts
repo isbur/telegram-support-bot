@@ -1,3 +1,4 @@
+declare var require: any
 import * as db from './db';
 import cache from './cache';
 import config from '../config/config';
