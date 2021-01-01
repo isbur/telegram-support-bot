@@ -1,3 +1,4 @@
+declare var require: any
 import * as db from './db';
 const {Extra} = require('telegraf');
 import config from '../config/config';
