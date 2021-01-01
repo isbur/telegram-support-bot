@@ -1,4 +1,6 @@
 /* eslint-disable new-cap */
+declare var require: any
+
 const Telegraf = require( 'telegraf');
 const {Extra} = Telegraf;
 
