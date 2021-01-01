@@ -1,6 +1,6 @@
 const config = {
   // bot settings
-  bot_token: 'YOUR_BOT_TOKEN', // support bot token
+  bot_token: '1445612326:AAH77Vmt3XyBJH0tx0SVbx4T7FgOen9cm-g', // support bot token
   staffchat_id: 'SUPERGROUP_CHAT_ID', // eg. -123456789
   owner_id: 'YOUR_TELEGRAM_ID',
   spam_time: 5 * 60 * 1000, // time (in MS) in which user may send 5 messages
