@@ -1,3 +1,4 @@
+declare var require: any
 const session = require('telegraf/session');
 import * as db from './db';
 
