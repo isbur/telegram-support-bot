@@ -16,7 +16,7 @@
     "scripts": {
         "tsc": "tsc",
         "dev": "ts-node-dev ./src/index.ts",
-        "prod": "npm i --save-dev @types/node && npm i && tsc && node ./build/src/index.js"
+        "prod": "tsc && node ./build/src/index.js"
     },
     "engines": {
         "node": ">=6.2.0"
