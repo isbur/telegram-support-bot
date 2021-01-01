@@ -1,3 +1,4 @@
+declare var require: any
 import config from '../config/config';
 import cache from './cache';
 const {Extra} = require('telegraf');
