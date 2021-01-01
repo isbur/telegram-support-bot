@@ -1,3 +1,4 @@
+declare var require: any
 const Database = require('better-sqlite3');
 const db = new Database('./config/support.db', {
    verbose: console.log }); // debugging
