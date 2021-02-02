@@ -14,7 +14,7 @@
     },
     "main": "build/src/index.js",
     "scripts": {
-        "postinstall": "tsc"
+        "postinstall": "tsc",
         "tsc": "tsc",
         "dev": "ts-node-dev ./src/index.ts",
         "prod": "node ./build/src/index.js"
