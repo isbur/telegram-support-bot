@@ -14,9 +14,10 @@
     },
     "main": "build/src/index.js",
     "scripts": {
+        "postinstall": "tsc"
         "tsc": "tsc",
         "dev": "ts-node-dev ./src/index.ts",
-        "prod": "tsc && node ./build/src/index.js"
+        "prod": "node ./build/src/index.js"
     },
     "engines": {
         "node": ">=6.2.0"
